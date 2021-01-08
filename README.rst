@@ -22,7 +22,7 @@ Add ``djqgrid`` to your project
 5. Add the ``djqgrid`` URLs to ``urls.py``:
    ::
    
-    urlpatterns += patterns('', url(r^'grid_json/', include (djqgrid.urls))
+    urlpatterns += patterns('', url(r^'grid_json/', include (djqgrid.urls)))
 
 Define your model
 ^^^^^^^^^^^^^^^^^
